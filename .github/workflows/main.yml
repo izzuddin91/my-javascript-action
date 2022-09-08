@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step2
         id: hello123
-        uses: kubowania/my-javascript-action@v1
+        uses: kubowania/my-javascript-action@v2
         with:
           who-to-greet: "Izzuddin"
       # Use the output from the `hello` step
