@@ -3,7 +3,7 @@ const github = require("@actions/github");
 
 try {
   const nameToGreet = core.getInput("who-to-greet2");
-  console.log(`hello ${nameToGreet}`);
+  console.log(`hellos ${nameToGreet}`);
   const time = new Date().toTimeString();
   core.setOutput("time", time);
 
